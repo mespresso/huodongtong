@@ -1,0 +1,17 @@
+.register{
+  width:39%;
+  min-width: 450px;
+  margin: 0 auto;
+}
+.margin-top{margin-top: 20px;}
+h1{
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+a{
+  padding-left: 85%;
+}
+button{
+  width:30%;
+  margin-left: 35%;
+}

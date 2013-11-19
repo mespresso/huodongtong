@@ -1,0 +1,25 @@
+      .left{
+        float:left;
+      }
+      .nav{
+        float: right;
+        margin-top: -50px;
+        margin-right: 5%;
+      }
+      h1{
+        margin-left: 5%;
+      }
+      .register{
+        width:39%;
+        min-width: 450px;
+        margin: 0 auto;
+      }
+      .margin-top{margin-top: 20px;}
+
+      button{
+        width:30%;
+        margin-left: 35%;
+      }
+      .list_first{
+        margin-left: 5%;
+      }

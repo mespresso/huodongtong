@@ -1,0 +1,31 @@
+      .left{
+        float:left;
+      }
+      .nav{
+        float: right;
+        margin-top: -50px;
+        margin-right: 5%;
+      }
+      h1{
+        margin-left: 5%;
+      }
+      h4{
+        display: inline;
+        line-height: 20px; 
+      }
+      th,td{
+        text-align:center;
+      }
+      .add_user_btn{
+        margin-left: 20px;
+      }
+      .logout{margin-left: 10px;}
+      .manage_of_user{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+      .page_list{
+        float: right;
+        margin-right: 5%;
+      }
