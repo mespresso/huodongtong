@@ -8,12 +8,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/manager_index.css" rel="stylesheet">
     <script type="text/javascript">
-      function load(){
-        confirm("您确定要删除“张三”?");
-      }
-      function add(){
-        window.location.href="manager_add_user.html";
-      }
     </script>
     
 
@@ -26,82 +20,87 @@
 
   </head>
   <body>
-    <body onload="">
       <h1>活动通</h1>
       <div class="nav">
         <span class="left">你好，&nbsp</span>
         <span class="left">管理员</span>
         <a class="logout left" href="login.html">退出</a>
       </div>
-    
+    <div>
+      <ol class="breadcrumb">
+        <li class="list_first" style="margin-left:5%;"><a href="#">首页</a></li>
+        <li class="active"><a href="manager_scan_user_activity_list.html">张三</a></li>
+        <li class="active">报名列表</li>
+      </ol>
+    </div>
       <div class="manage_of_user">
 
 
           <div class="panel panel-default">
 
           <div class="panel-heading">
-           <h4>用户管理</h4>
-            <button class="add_user_btn" onclick="add()">+添加用户</button>
+           <h4>报名列表</h4>
+           <a href="user_jingjia_list.html" style="float:right;">竞价列表</a>
           </div>
 
           <table class="table">
             <thead>
               <tr>
                 <th>编号</th>
-                <th>用户名</th>
-                <th>操作</th>
+                <th>姓名</th>
+                <th>手机号</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td><a href="#">张三</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>张三</td>
+                <td>18735512233</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td><a href="#">小红</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>小红</td>
+                <td>18722312222</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td><a href="#">小明</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>小明</td>
+                <td>18733312322</td>
               </tr>
               <tr>
                 <td>4</td>
-                <td><a href="#">张三</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>张三</td>
+                <td>18733312111</td>
               </tr>
               <tr>
                 <td>5</td>
-                <td><a href="#">小红</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>小红</td>
+                <td>18733312888</td>
               </tr>
               <tr>
                 <td>6</td>
-                <td><a href="#">小明</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>小明</td>
+                <td>18733312266</td>
               </tr>
               <tr>
                 <td>7</td>
-                <td><a href="#">张三</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>张三</td>
+                <td>18733312255</td>
               </tr>
               <tr>
                 <td>8</td>
-                <td><a href="#">小红</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>小红</td>
+                <td>18733312226</td>
               </tr>
               <tr>
                 <td>9</td>
-                <td><a href="#">小明</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>小明</td>
+                <td>18733312225</td>
               </tr>
               <tr>
                 <td>10</td>
-                <td><a href="#">小明</a></td>
-                <td><a href="#">删除</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">修改密码</a></td>
+                <td>小明</td>
+                <td>18733312223</td>
               </tr>
             </tbody>
           </table>
